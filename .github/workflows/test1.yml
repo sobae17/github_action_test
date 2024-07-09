@@ -1,0 +1,8 @@
+name: 테스트1
+on: [push]
+jobs:
+    build:
+      runs-on: ubuntu-lastest
+      steps:
+      - name: 헬로월드출력!
+        run: echo Hello World!!
