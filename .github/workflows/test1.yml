@@ -6,3 +6,5 @@ jobs:
       steps:
       - name: 헬로월드출력!
         run: echo Hello World!!
+      - name: 디렉토리 출력
+        run: ls -al
