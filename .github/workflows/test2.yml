@@ -1,0 +1,10 @@
+name: helloword2
+on: [push]
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: test1
+      run: echo aaa!
+    - name: directory list
+      run: sudo ls -al
